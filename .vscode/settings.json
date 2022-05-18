@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.focusRecentEditorAfterClose": true,
+  "explorer.autoReveal": false
+}

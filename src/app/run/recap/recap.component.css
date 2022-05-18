@@ -1,0 +1,17 @@
+.img-container {
+  background-color: var(--background-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url("../../../assets/export/slay-the-spire/creatures/Watcher.png");
+}

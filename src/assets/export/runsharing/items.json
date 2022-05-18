@@ -1,0 +1,23 @@
+{
+  "mod": {
+    "name": "Run Sharing Mod",
+    "version": "0.0.1",
+    "authors": ["OliW3r#8852 @ Discord"],
+    "credits": "",
+    "description": "A mod to easily share your runs with friends.",
+    "mts_version": "3.18.2",
+    "sts_version": "12-22-2020",
+    "dependencies": ["basemod","stslib"],
+    "optional_dependencies": []
+  },
+  "cards": [
+  ],
+  "relics": [
+  ],
+  "potions": [
+  ],
+  "creatures": [
+  ],
+  "keywords": [
+  ]
+}

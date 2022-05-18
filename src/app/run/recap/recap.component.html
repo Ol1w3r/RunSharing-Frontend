@@ -1,0 +1,27 @@
+<main>
+    <div class="error" *ngIf="is404">
+        <h1>404: The run with this id is missing</h1>
+    </div>
+
+    <div *ngIf="ready">
+        <div>
+            <h2 class="foreground" style="float:left; width:15%">{{ this.character?.name }}</h2>
+            <h2 class="foreground" style="float:right; width:85%">{{ this.recap?.name }}</h2>
+        </div>
+        <div style="float:left; width: 80%;">
+            <div class="img-container case">
+                <div>
+                    <app-card-renderer *ngFor="let card of deck" [card]="card"></app-card-renderer>
+                </div>
+            </div>
+        </div>
+        <div style="float:left; width: 20%;">
+            <div class="img-container case">
+                <div>
+                    <app-relic-renderer *ngFor="let relic of relics" [relic]="relic"></app-relic-renderer>
+                </div>
+            </div>
+        </div>
+        <!--<img src="assets/{{this.character?.image}}" />-->
+    </div>
+</main>

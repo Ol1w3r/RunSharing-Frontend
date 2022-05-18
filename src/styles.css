@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* Colors */
+  --foreground-primary: #990066;
+  --foreground-secondary: #9900cc;
+  --foreground-tertiary: #cc0099;
+  --background-primary: #6666ff;
+  --background-secondary: #483d8b;
+  --error-primary: #a52a2a;
+  --error-secondary: #990066;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--background-primary);
+}
+
+/* Color classes */
+.foreground {
+  background-color: var(--foreground-primary);
+}
+
+.error {
+  background-color: var(--error-primary);
+}
+
+/* Formatting classes */
+.case {
+  margin: 20px 20px 0px 20px;
+  padding: 5px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+/** Gimmicks */
+.highlightOnHover {
+  transition: transform cubic-bezier(0, 1, 1, 1) .5s;
+}
+.highlightOnHover:hover {
+  transform: scale(1.5);
+}
